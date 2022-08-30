@@ -10,5 +10,8 @@ public class Test2 {
 		else
 			System.out.println("do work....");
 		
+		//how to configure jenkins with github
+		//https://www.youtube.com/watch?v=F8Nfjwneeb4
+		
 	}
 }
