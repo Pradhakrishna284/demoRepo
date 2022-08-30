@@ -1,0 +1,10 @@
+Git Tutorials
+
+1) How to work with git & github using eclipse
+https://www.youtube.com/watch?v=HCeBd5GKNO8&t=21s
+
+2) How to switch branch?
+https://devconnected.com/how-to-switch-branch-on-git/
+
+3) How to pull latest changes from remote repository (git hub) to local git software
+https://www.w3schools.com/git/git_pull_from_remote.asp
