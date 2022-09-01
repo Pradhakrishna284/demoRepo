@@ -8,3 +8,6 @@ https://devconnected.com/how-to-switch-branch-on-git/
 
 3) How to pull latest changes from remote repository (git hub) to local git software
 https://www.w3schools.com/git/git_pull_from_remote.asp
+
+4) How to clone, add, commit, push code from local repo to git hub repository
+https://www.youtube.com/watch?v=eL_0Ok_Gkas
