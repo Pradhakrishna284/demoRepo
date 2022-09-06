@@ -93,11 +93,24 @@ public class cloud_orphan_check {
 			System.out.println(e.getMessage());
 			System.out.println("There is an execption, I am in catch block");
 		} finally {
-			if (resultSet != null)
-				resultSet.close();
-			dbconnect.close();
+//			if (resultSet != null)
+//				resultSet.close();
+//			dbconnect.close();
+			
+			try {
+			     if (stmt != null) { stmt.close(); }
+			   }
+			   catch (Exception e) {
+			     // log this error
+			   }
+			   try {
+			     if (dbconnect != null) { dbconnect.close(); }
+			   }
+			   catch (Exception e) {
+					System.out.println(e.getMessage());
+			   }
+			  }
 		}
-	}
 
 	public static ArrayList<String> GetEntities()
 	{
